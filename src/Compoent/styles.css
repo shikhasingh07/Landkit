@@ -1,0 +1,617 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Source Sans Pro", sans-serif;
+  margin-top: 0.8rem;
+}
+.navBar p {
+  color: #2e59f2;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+}
+.navLink {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  align-content: stretch;
+}
+.navLink span a {
+  margin-left: 0.5rem;
+  color: #6d6f71;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+@media (max-width: 615px) {
+  .navBar {
+    width: 100%;
+    margin: 0;
+  }
+}
+.mainpage {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+.mainImage {
+  width: 50%;
+  height: 50%;
+}
+.btnGroup {
+  margin-top: 3rem;
+}
+.mainCon {
+  margin-top: 4rem;
+  width: 50%;
+}
+@media (max-width: 815px) {
+  .mainCon {
+    width: 100%;
+  }
+  .mainImage {
+    width: 100%;
+  }
+  .mainpage {
+    display: block;
+  }
+}
+.mainCon p {
+  margin: 1rem 0;
+}
+.mainHead {
+  font-size: 28px;
+}
+.mainCon span {
+  color: #2e59f2;
+}
+.mainsecond,
+.headingpara {
+  color: #6d6f71;
+  margin: 0.5rem 0 !important;
+}
+.logoIcon {
+  height: 35px;
+  width: 20vw;
+  filter: grayscale(1);
+  margin-left: 0.5rem;
+}
+.iconGroup {
+  overflow: hidden;
+  margin-top: 2rem;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding: 0 0.6rem;
+  width: 90%;
+  margin: auto;
+}
+.first {
+  max-width: 115px;
+  margin-left: -0.1rem;
+}
+.extraI {
+  filter: opacity(0.5);
+}
+.formMain {
+  background-color: rgb(215 214 214 / 20%);
+}
+.formBody {
+  padding: 4rem 0.6rem;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.fomeInputMain {
+  width: 50%;
+  background-color: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 0px 5px 5px 5px;
+}
+.fomeInputMain input {
+  display: block;
+  border: none;
+  width: 90%;
+  border-bottom: 1px solid rgb(243, 238, 238);
+  margin-top: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+::placeholder {
+  color: #a8a9aa;
+}
+.fomeInputMain img {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+.formCard {
+  padding: 0 4%;
+  margin-top: 1rem;
+}
+.fromBtn {
+  margin-top: 2rem;
+  background-color: #0caa80 !important;
+  color: rgb(247, 245, 245) !important;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.greenCircule {
+  z-index: 0;
+  position: absolute;
+  font-size: 24px;
+  color: #d4fff4;
+  display: flex;
+  opacity: 0.5;
+}
+.colorTick {
+  color: #0caa80;
+  z-index: 10;
+  position: absolute;
+  top: 6px;
+  left: 7px;
+  font-size: 10px;
+}
+.TrikCol {
+  display: flex;
+  position: relative;
+}
+.updateText {
+  margin-left: 2rem;
+  color: #0caa80;
+  margin-top: 0.5rem;
+}
+.groupIcon {
+  display: flex;
+  margin-left: 2%;
+}
+.TextGroup {
+  width: 50%;
+  margin-left: 3.5rem;
+  line-height: 23px;
+}
+.headingfirst {
+  font-size: 24px;
+  margin: 0;
+}
+.headingSecond {
+  font-size: 24px;
+  color: #0caa80;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+.secondGrp {
+  padding-left: 7%;
+}
+.mainSecondGrp {
+  margin-left: 5rem;
+}
+.headingpara {
+  margin-bottom: 2%;
+}
+.fontIcons {
+  display: flex;
+}
+.CodeScreen {
+  padding-top: 5%;
+  line-height: 17px;
+  width: 50%;
+}
+.scrParacodin {
+  padding-top: 2rem;
+}
+.codeHeading,
+.codeHeading2 {
+  font-size: 24px;
+  margin: 0;
+  line-height: 17px;
+}
+.codeHeading2 {
+  line-height: 17px;
+  color: #2e59f2;
+  margin-top: 0.8rem;
+}
+
+.codepara {
+  color: #5e5555;
+  line-height: 24px;
+}
+.scrPara {
+  margin: 0;
+}
+.scrgrp {
+  margin-left: 2rem;
+  width: 60%;
+}
+.scrPara2 {
+  color: #a8a9aa;
+  line-height: 21px;
+  margin-bottom: 2rem;
+  margin-top: 0.5rem;
+}
+.codeImage {
+  /* margin: auto;
+  width: 50%;
+  margin: auto;
+  width: 50%;
+  background-size: cover;
+  box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+  /* transform: scale(1) rotateX(19deg) rotateZ(10deg) rotateY(333deg); */
+  /* transform: skew(10deg) scale(1.2); */
+  margin: auto;
+  width: 50%;
+  margin: auto;
+  width: 39%;
+  background-size: cover;
+  box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+  transform: skew(349deg) scale(1.2);
+  border-radius: 5%;
+}
+
+.dashImage {
+  width: 100%;
+  height: 100%;
+  border-radius: 5%;
+}
+.cardMain {
+  padding: 2rem 0.6rem;
+  width: 90%;
+  margin: auto;
+  z-index: 1;
+  position: absolute;
+}
+.cardCenter {
+  width: 60%;
+  margin: auto;
+}
+.cardCenterHead {
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 3%;
+}
+.cardCenterHead2 {
+  font-size: 14px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #858b91;
+}
+.cardCenter p {
+  margin: 0;
+}
+.cardImageMain {
+  display: flex;
+  margin-top: 4%;
+  box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+  border-radius: 3%;
+  background-color: white;
+}
+.cardImage {
+  margin: auto;
+  width: 90%;
+  position: relative;
+  border-radius: 10%;
+  height: 50%;
+  margin: auto;
+}
+.cardImageMain img {
+  width: 50%;
+  clip-path: ellipse(83% 101% at 7% 44%);
+  border-radius: 3%;
+}
+.cardImageMain2 {
+  display: block;
+  padding-top: 2%;
+  width: 30%;
+  margin: auto;
+  line-height: 27px;
+  color: #353535;
+}
+.cardImageMainLogo {
+  margin: auto;
+  display: flex;
+  width: 50px;
+  height: 30px;
+}
+.cardImage {
+  position: relative;
+  z-index: 1;
+}
+.btnArrow {
+  color: white;
+  background-color: #2e59f2;
+  border: none;
+  border-radius: 50%;
+  padding: 2%;
+  z-index: 10;
+  position: absolute;
+  top: 31%;
+  left: -2%;
+}
+.btnArrowright {
+  color: white;
+  background-color: #2e59f2;
+  border: none;
+  border-radius: 50%;
+  padding: 2%;
+  z-index: 10;
+  position: absolute;
+  top: 31% !important;
+  right: -2% !important;
+}
+.cardAuthor {
+  font-size: 14px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #858b91;
+}
+.desginCard {
+  height: max-content;
+  background: rgb(238 238 238);
+  transform: translate(0px, 20%);
+  height: auto;
+  clip-path: polygon(-68% 68%, 136% 0px, 100% 50%, 100% 100%, 0px 100%, 0% 50%);
+}
+
+.desginCardHead {
+  padding-top: 35%;
+  display: flex;
+  background: rgb(228 228 228 / 16%);
+  height: auto;
+}
+.desginCardHead2 {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  height: 56vh;
+  justify-content: space-between;
+}
+.desginCardHeadpt {
+  width: 40%;
+}
+.cardSpan {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cardSpanB {
+  display: block;
+  padding-right: 2%;
+  border-right: 1px solid #a8a9aa;
+}
+.yogaCardImg {
+  width: 50%;
+}
+.yogaCardImg img {
+  width: 80%;
+}
+.ma {
+  width: 100%;
+  z-index: 0;
+  background: rgb(238 238 238);
+  height: 110vh;
+  padding: 2rem 0 0 0;
+}
+
+.toGLe {
+  color: #a8a9aa !important;
+}
+.cardPri {
+  padding-top: 10rem;
+}
+.cardPri2 {
+  display: flex;
+  justify-content: center;
+}
+.toGLe {
+  margin: 0 0.5rem;
+}
+.cardIcons {
+  color: #a8a9aa;
+}
+.priceCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  z-index: 100;
+  max-width: 65%;
+  padding-top: 3rem;
+}
+.gold {
+  float: inline-end;
+  width: 45%;
+  height: 455px;
+  top: 0px;
+  padding: 9px 0;
+  background-color: white;
+  text-align: center;
+  border-radius: 7px 9px 11px 9px;
+  box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+}
+.getNow {
+  margin-top: 2rem;
+}
+.plat {
+  float: left;
+  width: 45%;
+  height: 400px;
+  background: white;
+  text-align: center;
+  border-radius: 7px 9px 11px 9px;
+  box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+}
+.trickGrops {
+  display: flex;
+  margin-left: 15%;
+  align-items: center;
+  margin-bottom: 3%;
+}
+.priceText {
+  color: #353535 !important;
+  margin-left: 2.5rem;
+  font-size: 15px;
+  line-height: 22px;
+}
+.priclTrick {
+  margin-top: -11px !important;
+}
+.btnPriceTag {
+  background-color: #d7dffc;
+  color: #2e59f2;
+  text-align: center;
+  border-radius: 15px;
+  border: none;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding: 5px;
+  font-weight: 600;
+}
+.mainpriceGrp {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.pricecartext {
+  font-size: 23px;
+  margin-bottom: 4%;
+}
+.pricecartext1 {
+  font-size: 36px;
+  margin: 0;
+}
+.pricecartext2 {
+  margin-top: 10%;
+  margin-left: 2%;
+}
+.perprice {
+  color: #b0b0b0 !important;
+  margin-top: -15px;
+}
+.priceTagbtn {
+  width: 100%;
+  padding: 1rem;
+  color: white;
+  background-color: #2e59f2;
+  border: none;
+  border-radius: 0 0 5px 5px;
+}
+
+.btntag {
+  transform: translate(0, 182%);
+  background-color: #c8cddd !important;
+  color: rgb(101, 105, 107) !important;
+}
+.pricepara {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 65%;
+  margin: 5rem auto;
+  color: #bbbbbb;
+  font-size: 14px;
+  line-height: 22px;
+}
+.diviedCard {
+  margin: 0 auto;
+  z-index: 1;
+  /* border-radius: 0 0 50% 50% / 50px; */
+  background: rgb(238 238 238);
+}
+.partTwoPrice {
+  background-color: #2e59f2;
+  width: 100%;
+  height: 97vh;
+  z-index: 0;
+  border-radius: 0 0 50% 50% / 50px;
+  margin-top: -14rem;
+  padding-top: 13rem;
+}
+.partPricesub {
+  display: flex;
+  padding-top: 4rem;
+  max-width: 55%;
+  margin: 0 auto;
+}
+.subPartTwo {
+  margin-left: 5%;
+}
+.partPricesub p {
+  margin: 0;
+  margin-top: 2%;
+}
+.priceText p {
+  color: #919bbe;
+  margin-left: 2%;
+  margin-bottom: 7%;
+}
+.getNowCard {
+  display: flex;
+  justify-content: center;
+}
+.getNowCardheading {
+  font-size: 24px;
+  color: white;
+}
+.getNowCard2 {
+  max-width: 50%;
+  margin: 0 auto;
+
+  text-align: center;
+}
+.btnNowCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  color: white;
+  background-color: #5a7cf5;
+  padding: 0.5rem;
+  opacity: 0.6;
+  margin-top: 2rem;
+}
+.getNowCardsub {
+  color: #ece8e8;
+}
+.colchange {
+  background-color: #0caa80 !important;
+  color: white !important;
+  font-size: 14px !important;
+}
+.NewCircule {
+  color: #0caa80 !important;
+}
+.newTrickp {
+  color: white;
+}
+
+@media (max-width: 999px) {
+  .desginCardHead {
+    display: none;
+  }
+  .priceCard {
+    max-width: 100%;
+    margin-top: 5rem;
+    height: auto;
+  }
+
+  .priceTagbtn {
+    display: none;
+  }
+
+  .cardPri {
+    padding-top: 50rem;
+  }
+  .partTwoPrice {
+    height: auto;
+  }
+}

@@ -1,0 +1,63 @@
+.navButton,
+.mainCol {
+  background-color: #2e59f2;
+  font-size: 17px;
+  font-family: "Source Sans Pro", sans-serif;
+  border: none;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 10px 18px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-align: center;
+  cursor: pointer;
+  color: #ffffff;
+}
+.mainCol {
+  background-color: #d5dcf3;
+  color: #2e59f2;
+  margin-left: 1rem;
+}
+.smContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.smIcons {
+  display: grid;
+}
+.rotate {
+  transform: rotate(180deg);
+  color: #2e59f2;
+}
+.codeIcon {
+  display: flex;
+}
+.horizontal {
+  transform: rotate(10deg);
+  height: 0px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  margin: 9px 0;
+  color: #6d6f71;
+  font-weight: 600;
+  width: 16px;
+  font-size: 19px;
+}
+.IconEqual {
+  height: 32px;
+}
+.smaheading {
+  font-size: 16px;
+}
+.smaheading2 {
+  color: #6d6f71;
+}
+.smallParts {
+  width: 30%;
+}
+.arrowLeft {
+  color: #2e59f2;
+  font-size: 21px;
+}
